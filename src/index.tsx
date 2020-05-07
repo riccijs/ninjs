@@ -1,12 +1,12 @@
 import React, { cloneElement } from 'react'
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core'
-import { NinJsProps } from './src/compiler/types'
-import Header from './src/components/header/Header'
-import Footer from './src/components/footer/Footer'
-import Sidebar from './src/components/sidebar/Sidebar'
-import Body from './src/components/body/Body'
-import Frame from './src/components/frame/Frame'
-import { defaultTheme } from './src/utils'
+import { NinJsProps } from './compiler/types'
+import Header from './components/header/Header'
+import Footer from './components/footer/Footer'
+import Sidebar from './components/sidebar/Sidebar'
+import Body from './components/body/Body'
+import Frame from './components/frame/Frame'
+import { defaultTheme } from './utils'
 
 export default function NinJs(props: NinJsProps) {
   const {
